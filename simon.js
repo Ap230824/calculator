@@ -8,6 +8,7 @@ let level=0;
 
 let h2=document.querySelector("h2");
 
+// this is for starting 
 document.addEventListener("keypress",function()
 {
 
@@ -98,6 +99,7 @@ function btnPress()
     checkAns(userSeq.length-1);
 }
 
+// clicking operation
 let allBtns= document.querySelectorAll(".btn");
 
 for( btn of allBtns)
